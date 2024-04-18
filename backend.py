@@ -57,8 +57,8 @@ def create_table(dbCon):
 	# dbCon.execute("DROP TABLE IF EXISTS BENEFICIARY")
 	# dbCon.getCursor().execute("CREATE TABLE IF NOT EXISTS BENEFICIARY")
 
-	defaultUsername = 'admin'
-	defaultPassword = 'csibale123'
+	defaultUsername = '' # Omitted for privacy purposes
+	defaultPassword = ''
 	defaultExportDir = ''
 
 	createBenfTable = """
