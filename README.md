@@ -1,4 +1,4 @@
-# Database Management System
+# CRUD System
 This project is made for the completion of my Software Design course along with my colleagues.
 ***
 
