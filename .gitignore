@@ -1,0 +1,7 @@
+env
+__pycache__
+resources/__pycache__
+./.vscode
+resources/profile_images
+resources/resources
+resources/resource_rc.py
