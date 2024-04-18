@@ -8,8 +8,8 @@ from dataListMapping import *
 from backend import passwordHashEncode
 
 def generateTestData(numRecords=100):
-	defaultUsername = 'admin'
-	defaultPassword = 'csibale123'
+	defaultUsername = ''
+	defaultPassword = ''
 	defaultExportDir = ''
 
 	dataList = DataListMapping()

@@ -24,15 +24,15 @@ class loginTest(unittest.TestCase):
 	
 	def test_1_login_valid(self):
 		self.loginWindow = login.LoginWindow()
-		self.loginWindow.username.setText('admin')
-		self.loginWindow.password.setText('csibale123')
+		self.loginWindow.username.setText('')
+		self.loginWindow.password.setText('')
 		QtTest.QTest.mouseClick(self.loginWindow.submitBtn, QtCore.Qt.LeftButton)
 		self.assertEqual(self.loginWindow.loginStatus, True)
 	
 	def test_2_login_invalid(self):
 		self.loginWindow = login.LoginWindow()
-		self.loginWindow.username.setText('admin')
-		self.loginWindow.password.setText('csibale1233')
+		self.loginWindow.username.setText('')
+		self.loginWindow.password.setText('')
 		QtTest.QTest.mouseClick(self.loginWindow.submitBtn, QtCore.Qt.LeftButton)
 		self.assertEqual(self.loginWindow.loginStatus, False)
 
